@@ -1,0 +1,14 @@
+@media(max-width: 946px){
+	.footer{
+		border: none;
+	}
+	.p-rodape{
+		margin:30px; 
+	}
+}
+@media(max-width: 774px){
+	.footer{
+	display: flex;
+	flex-direction: column;
+	}
+}

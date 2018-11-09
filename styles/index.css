@@ -1,0 +1,43 @@
+/* RESET*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i');
+*{margin: 0; padding: 0; font-size: 100%; box-sizing: border-box; font-family: 'Open Sans', sans-serif;}
+nav, ul{list-style: none;}
+a{text-decoration: none; cursor: pointer; color: #fff;}
+
+footer {
+  width: 100%;
+  background: #1f2123;
+  color: #fff;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+    border-top: 1px solid #454749;
+    border-bottom: 1px solid #454749;
+    display: -webkit-box;
+}
+footer img{
+  width: 186px;
+  height: 68px;
+  margin: 35px;
+}
+.p-rodape {margin:50px;}
+.p-rodape h1{
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+}
+.p-rodape li{margin-top: 20px;}
+.p-rodape a{font-size: 16px;}
+.p-rodape a:hover{color: #fcb823;}
+
+footer .footer-info{
+  margin-top: 35px;
+  width: 75%;
+  text-align: justify;
+}
+.footer-info h2{font-size: 16px; margin-bottom: 30px;}
+.footer-info p{font-size: 14px; margin-bottom: 50px }
